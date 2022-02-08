@@ -3,9 +3,9 @@ package org.tonkushin.ln;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-public class StopwatchImpl implements Stopwatch {
+public class Stopwatch {
     private LocalDateTime start;
-    long elapsedTime=0;
+    private long elapsedTime=0;
 
     public void start(){
         start = LocalDateTime.now();
